@@ -1,0 +1,54 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile {
+  width: 80px;
+  height: 80px;
+}
+.name {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #12022f;
+}
+
+.position {
+  color: #616e7c;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.title1 {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #12022f;
+}
+
+.description {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #616e7c;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-container {
+  list-style-type: none;
+}
